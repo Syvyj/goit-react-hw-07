@@ -1,12 +1,73 @@
-# React + Vite
+# Phonebook App | Книга контактів
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🇺🇦 Опис проекту
 
-Currently, two official plugins are available:
+Застосунок "Книга контактів" - це веб-додаток для управління списком контактів.
+Розроблений з використанням сучасних веб-технологій, він надає зручний інтерфейс
+для додавання, видалення та фільтрації контактів.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Функціональність
 
-## Expanding the ESLint configuration
+- Додавання нових контактів з іменем та номером телефону
+- Видалення існуючих контактів
+- Фільтрація контактів за іменем
+- Збереження контактів на віддаленому сервері
+- Стильний ретро-інтерфейс у стилі 80-х років
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Технології
+
+- React
+- Redux Toolkit для управління станом
+- Axios для HTTP-запитів
+- MockAPI для бекенду
+- CSS Modules для стилізації
+- Vite як збірник проекту
+
+### Встановлення та запуск
+
+```bash
+# Клонування репозиторію
+git clone [repository-url]
+
+# Встановлення залежностей
+npm install
+
+# Запуск проекту
+npm run dev
+```
+
+## 🇬🇧 Project Description
+
+The "Phonebook App" is a web application for managing contacts. Developed using
+modern web technologies, it provides a convenient interface for adding,
+deleting, and filtering contacts.
+
+### Features
+
+- Add new contacts with name and phone number
+- Delete existing contacts
+- Filter contacts by name
+- Store contacts on a remote server
+- Stylish retro interface with 80s design
+
+### Technologies
+
+- React
+- Redux Toolkit for state management
+- Axios for HTTP requests
+- MockAPI for backend
+- CSS Modules for styling
+- Vite as project bundler
+
+### Installation and Setup
+
+```bash
+# Clone the repository
+git clone [repository-url]
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
